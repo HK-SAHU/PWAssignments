@@ -1,0 +1,120 @@
+Ques 1: Conditional operators are used to control the flow of execution of the code based on certain conditions. They allow a program to make decisions and execute different blocks of code depending on whether conditions are true or false.
+
+The conditional operators in Java are:
+
+1. Ternary Operator (? :)  - The ternary operator is a shorthand for an if-else statement. It evaluates the condition and returns expression1 if the condition is true, otherwise, it returns expression2.
+   Syntax: condition ? expression1 : expression2
+   Example: int result = (a > b) ? a : b;
+
+2. Conditional AND (&&) - The conditional AND operator evaluates both conditions and returns true only if both conditions are true. If the first condition is false, the second condition is         not evaluated (short-circuit evaluation).
+   Syntax: condition1 && condition2
+   Example: if (a > 0 && b < 10) { ... }
+
+3. Conditional OR (||) - The conditional OR operator evaluates both conditions and returns true if at least one of the conditions is true. If the first condition is true, the second condition is not evaluated (short-circuit evaluation).
+   Syntax: condition1 || condition2
+   Example: if (a > 0 || b < 10) { ... }
+
+4. Conditional NOT (!) -  The conditional NOT operator inverts the value of the condition. If the condition is true, it returns false, and if the condition is false, it returns true.
+   Syntax: !condition
+   Example: if (!a) { ... }
+
+---------------------------------------------------------------------------------------------
+
+Ques 2: There are three types of operators in java based on the number of operands.
+. Unary operator
+. Binary operator
+. Ternary operator
+
+---------------------------------------------------------------------------------------------
+
+Ques 3: The switch statement in Java is used to execute one block of code among many possible blocks based on the value of a variable or expression. It provides a more readable and efficient way to handle multiple conditional branches compared to a series of if-else statements.
+example - 
+int day = 2;
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    default:
+        System.out.println("Other day");
+        break;
+}
+
+-------------------------------------------------------------------------------------------
+
+Ques 4: 
+
+Operator Precedence Order (From Highest to Lowest)
+Unary Operators
+Example: -a, ++b, --c
+
+Multiplicative Operators
+Example: a * b, a / b, a % b
+
+Additive Operators
+Example: a + b, a - b
+
+-------------------------------------------------------------------------------------------
+
+Ques 5: 
+
+1. The if statement evaluates a condition and executes a block of code if the condition is true.
+
+2. The if-else statement evaluates a condition and executes one block of code if the condition is true, and another block if the condition is false.
+
+3. The if-else if-else statement allows multiple conditions to be evaluated in sequence. The first condition that evaluates to true will execute its corresponding block of code, and if none are true, the else block is executed.
+
+4.  The switch statement allows for the selection of one block of code from multiple options based on the value of an expression. It is often used when you have a variable that can take on a limited number of values.
+
+
+-------------------------------------------------------------------------------------------
+
+Ques 6:
+
+if (condition1) {
+    // code to execute if condition1 is true
+} else if (condition2) {
+    // code to execute if condition2 is true
+} else if (condition3) {
+    // code to execute if condition3 is true
+} else {
+    // code to execute if none of the above conditions are true
+}
+
+-------------------------------------------------------------------------------------------
+
+Ques 7: 
+
+3 types of iterative statements in java
+1. for loop
+2. while loop
+3. do-while loop
+
+-------------------------------------------------------------------------------------------
+
+Ques 8:
+
+for-loop
+
+1. The for loop is a control flow statement used for iteration. It repeats a block of code a specific number of times, based on the loop control variables.
+
+2. The condition is checked before executing the loop body. If the condition is false from the beginning, the loop body will not execute at all.
+
+3. Suitable when the number of iterations is known beforehand or can be clearly defined. Commonly used for iterating over arrays, collections, or performing a task a fixed number of times.
+
+do- while loop
+
+1. The do-while loop is a control flow statement that executes a block of code at least once and then repeatedly executes the code as long as a specified condition remains true.
+
+2. The loop body is executed at least once, regardless of the condition. After the first execution, the condition is evaluated to decide whether to continue with further iterations.
+
+3. Ideal for scenarios where the code block should execute at least once before any condition check is performed. Useful in situations where initial input or setup is required before validation.
+
+-------------------------------------------------------------------------------------------
+
+
